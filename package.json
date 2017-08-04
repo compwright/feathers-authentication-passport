@@ -1,0 +1,64 @@
+{
+  "name": "feathers-authentication-passport",
+  "description": "Generic PassportJS strategy adapter for feathers-authentication",
+  "version": "0.0.0",
+  "homepage": "https://github.com/compwright/feathers-authentication-passport",
+  "main": "src/",
+  "keywords": [
+    "feathers",
+    "feathers-plugin",
+    "feathers-authentication",
+    "passport"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/compwright/feathers-authentication-passport.git"
+  },
+  "author": {
+    "name": "Jonathon Hill",
+    "email": "jhill9693@gmail.com"
+  },
+  "contributors": [],
+  "bugs": {
+    "url": "https://github.com/compwright/feathers-authentication-passport/issues"
+  },
+  "engines": {
+    "node": ">= 6.5.0"
+  },
+  "scripts": {
+    "publish": "git push origin --tags && npm run changelog && git push origin",
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish",
+    "changelog": "github_changelog_generator && git add CHANGELOG.md && git commit -am \"Updating changelog\"",
+    "lint": "semistandard src/**/*.js test/**/*.js --fix",
+    "mocha": "mocha --recursive test/",
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- --opts mocha.opts",
+    "test": "npm run lint && npm run coverage",
+    "start": "node example/app"
+  },
+  "semistandard": {
+    "sourceType": "module",
+    "env": [
+      "mocha"
+    ]
+  },
+  "directories": {
+    "lib": "src"
+  },
+  "dependencies": {
+    "debug": "^2.2.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "feathers": "^2.0.2",
+    "feathers-authentication": "^1.0.0",
+    "feathers-hooks": "^2.0.0",
+    "feathers-memory": "^1.1.0",
+    "istanbul": "^1.1.0-alpha.1",
+    "mocha": "^3.1.2",
+    "passport-anonymous": "^1.0.1",
+    "semistandard": "^11.0.0"
+  }
+}
