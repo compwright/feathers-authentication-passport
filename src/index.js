@@ -10,13 +10,13 @@ function init (options = {}) {
     const _super = app.setup;
 
     if (!app.passport) {
-      throw new Error(`Cannot find app.passport. Did you initialize feathers-authentication before feathers-authentication-passport?`);
+      throw new Error('Cannot find app.passport. Did you initialize feathers-authentication before feathers-authentication-passport?');
     }
 
     const name = options.name || defaults.name;
 
     if (!options.strategy) {
-      throw new Error(`A Passport strategy is required (set options.strategy).`);
+      throw new Error('A Passport strategy is required (set options.strategy).');
     }
 
     const strategy = options.strategy;
