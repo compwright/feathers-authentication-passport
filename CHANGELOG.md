@@ -1,5 +1,18 @@
 # Changelog
 
+## [v1.1.2](https://github.com/compwright/feathers-authentication-passport/tree/v1.1.2) (2021-06-15)
+
+[Full Changelog](https://github.com/compwright/feathers-authentication-passport/compare/v1.1.1...v1.1.2)
+
+## [v1.1.1](https://github.com/compwright/feathers-authentication-passport/tree/v1.1.1) (2021-05-19)
+
+[Full Changelog](https://github.com/compwright/feathers-authentication-passport/compare/v1.1.0...v1.1.1)
+
+**Merged pull requests:**
+
+- Bump lodash from 4.17.20 to 4.17.21 [\#2](https://github.com/compwright/feathers-authentication-passport/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump hosted-git-info from 2.8.8 to 2.8.9 [\#1](https://github.com/compwright/feathers-authentication-passport/pull/1) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v1.1.0](https://github.com/compwright/feathers-authentication-passport/tree/v1.1.0) (2020-12-16)
 
 [Full Changelog](https://github.com/compwright/feathers-authentication-passport/compare/v1.0.0...v1.1.0)
