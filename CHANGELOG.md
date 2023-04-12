@@ -1,5 +1,26 @@
 # Changelog
 
+## [Unreleased](https://github.com/compwright/feathers-authentication-passport/tree/HEAD)
+
+[Full Changelog](https://github.com/compwright/feathers-authentication-passport/compare/v1.1.4...HEAD)
+
+**Merged pull requests:**
+
+- Bump json5 from 2.2.1 to 2.2.3 [\#5](https://github.com/compwright/feathers-authentication-passport/pull/5) ([dependabot[bot]](https://github.com/apps/dependabot))
+
+## [v1.1.4](https://github.com/compwright/feathers-authentication-passport/tree/v1.1.4) (2023-04-12)
+
+[Full Changelog](https://github.com/compwright/feathers-authentication-passport/compare/v1.1.3...v1.1.4)
+
+## [v1.1.3](https://github.com/compwright/feathers-authentication-passport/tree/v1.1.3) (2022-04-27)
+
+[Full Changelog](https://github.com/compwright/feathers-authentication-passport/compare/v1.1.2...v1.1.3)
+
+**Merged pull requests:**
+
+- Bump ansi-regex from 3.0.0 to 3.0.1 [\#4](https://github.com/compwright/feathers-authentication-passport/pull/4) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump minimist from 1.2.5 to 1.2.6 [\#3](https://github.com/compwright/feathers-authentication-passport/pull/3) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v1.1.2](https://github.com/compwright/feathers-authentication-passport/tree/v1.1.2) (2021-06-15)
 
 [Full Changelog](https://github.com/compwright/feathers-authentication-passport/compare/v1.1.1...v1.1.2)
